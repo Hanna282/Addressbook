@@ -1,0 +1,38 @@
+[
+  {
+    "FullName": "Anna Andersson",
+    "Address": "Gatan 5",
+    "PostalCode": "19587",
+    "City": "Stockholm",
+    "Phone": "073-1234567",
+    "Email": "anna@gmail.com",
+    "Id": 688
+  },
+  {
+    "FullName": "Kalle Karlsson",
+    "Address": "Vägen 2",
+    "PostalCode": "16589",
+    "City": "Borås",
+    "Phone": "070-9874563",
+    "Email": "kalle@gmail.com",
+    "Id": 756
+  },
+  {
+    "FullName": "Göran Göransson",
+    "Address": "Vägens 30",
+    "PostalCode": "18975",
+    "City": "Borås",
+    "Phone": "072-6547893",
+    "Email": "goran@gmail.com",
+    "Id": 587
+  },
+  {
+    "FullName": "Jonas Jonasson",
+    "Address": "Gatan 150",
+    "PostalCode": "19587",
+    "City": "Malmö",
+    "Phone": "070-5863249",
+    "Email": "jonas@hotmail.com",
+    "Id": 30
+  }
+]
