@@ -52,7 +52,7 @@ namespace AddressBook
                     }
                 }
                 else
-                    lstSearchResult.Items.Add("No contacts not found.");
+                    lstSearchResult.Items.Add("No contacts found.");
             }
             catch (Exception ex) 
             {
