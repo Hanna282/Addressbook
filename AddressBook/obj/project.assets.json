@@ -61,11 +61,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hanna\\source\\repos\\Nackademin\\0. Gith\\AddressBook\\AddressBook\\AddressBook.csproj",
+      "projectUniqueName": "C:\\Users\\hanna\\Desktop\\AddressBook\\AddressBook\\AddressBook.csproj",
       "projectName": "AddressBook",
-      "projectPath": "C:\\Users\\hanna\\source\\repos\\Nackademin\\0. Gith\\AddressBook\\AddressBook\\AddressBook.csproj",
+      "projectPath": "C:\\Users\\hanna\\Desktop\\AddressBook\\AddressBook\\AddressBook.csproj",
       "packagesPath": "C:\\Users\\hanna\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hanna\\source\\repos\\Nackademin\\0. Gith\\AddressBook\\AddressBook\\obj\\",
+      "outputPath": "C:\\Users\\hanna\\Desktop\\AddressBook\\AddressBook\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -9,17 +9,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="JSON\**" />
+    <EmbeddedResource Remove="JSON\**" />
+    <None Remove="JSON\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="JSON\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Update="JSON\Addressbook.json">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </None>
   </ItemGroup>
 
 </Project>

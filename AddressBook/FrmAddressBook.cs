@@ -44,10 +44,15 @@ namespace AddressBook
             try
             {
                 var contacts = Repository.GetContacts();
-                foreach (var contact in contacts)
+                if (contacts.Count > 0)
                 {
-                    lstSearchResult.Items.Add(new ContactDisplay { Contact = contact });
+                    foreach (var contact in contacts)
+                    {
+                        lstSearchResult.Items.Add(new ContactDisplay { Contact = contact });
+                    }
                 }
+                else
+                    lstSearchResult.Items.Add("No contacts not found.");
             }
             catch (Exception ex) 
             {
@@ -134,7 +139,7 @@ namespace AddressBook
         {
             if (string.IsNullOrWhiteSpace(txtName.Text) || string.IsNullOrWhiteSpace(txtAddress.Text) ||
                 string.IsNullOrWhiteSpace(txtPostalCode.Text) || string.IsNullOrWhiteSpace(txtCity.Text) ||
-                 string.IsNullOrWhiteSpace(txtPhone.Text) || string.IsNullOrWhiteSpace(txtEmail.Text))
+                string.IsNullOrWhiteSpace(txtPhone.Text) || string.IsNullOrWhiteSpace(txtEmail.Text))
                 return false;
             else 
                 return true;

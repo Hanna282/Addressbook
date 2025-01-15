@@ -23,7 +23,7 @@
             var contact = contacts.FirstOrDefault(con => con.Id == id);
 
             if (contact == null)
-                return false; //Contact not found
+                return false; 
             else
             {
                 contact.FullName = editedContact.FullName;
@@ -33,7 +33,7 @@
                 contact.Phone = editedContact.Phone;
                 contact.Email = editedContact.Email;
                 Repository.Save(contacts);
-                return true; //Successfully updated the contact
+                return true; 
             }
         }
 
@@ -43,12 +43,12 @@
             var contactToDelete = contacts.FirstOrDefault(con => con.Id == id);
 
             if (contactToDelete == null)
-                return false; //Contact not found
+                return false; 
             else
             {
                 contacts.Remove(contactToDelete);
                 Repository.Save(contacts);
-                return true; //Successfully deleted the contact
+                return true; 
             }
         }
 

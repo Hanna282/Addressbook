@@ -25,7 +25,7 @@ namespace AddressBook.Classes
         public static List<Contact> GetContacts()
         {
             if (!File.Exists(_filePath))
-                return new List<Contact>(); //Return an empty list if the file doesn't exist.
+                return new List<Contact>();
 
             try
             {
@@ -38,7 +38,7 @@ namespace AddressBook.Classes
             catch (Exception ex)
             {
                 MessageBox.Show($"Error message: {ex.Message}");
-                return new List<Contact>(); //Return an empty list on error.
+                return new List<Contact>();
             }
         }
     }
